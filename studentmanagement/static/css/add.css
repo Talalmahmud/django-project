@@ -1,0 +1,10 @@
+body{
+    background-color: beige;
+}
+.form-design{
+    height: 500px;
+    width: 400px;
+    padding-left: 50%;
+
+    justify-content: center;
+}
