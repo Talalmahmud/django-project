@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block corecss %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+{% endblock corecss %}
+{% block content %}
+
+<div class="rounded mt-5 text-center">
+    <img src="{% static 'core/images/talal.jpg' %}" alt="Profile" class="img-fluid border border-primary rounded mt-3" height="150px" width="150px">
+</div>
+<div class="text-white mt-5">
+    <h1 style="font-family: 'Satisfy', cursive;">Hello,</h1>
+</div>
+<div class="mt-4 text-white mx-5">
+    <p style="text-indent: 50px;">I am 
+    <b class="text-warning">Talal Mahmud.</b>
+    I am full stack development learner. I have completed my bachelor's degree in computer science and engineering from Dhaka University
+    of Engineering and Technology (DUET). Actually I am a python developer. I have worked Django in python.
+    I have completed some project using
+    Django. Here I also used HTML, CSS, JavaScript, Bootstrap etc.
+    To be able to work in your organization as a Python Django Developer where I can fully utilize my skills in HTML,
+JavaScript, CSS, Python, Django and Java technologies.
+    </p>
+    <div class="text-center">
+        <a href="" class="btn btn-outline-warning my-3 mr-5 mt-5">Hire Me</a>
+        <a href="" class="btn btn-outline-info my-3 mr-5 mt-5">Contact</a>
+    </div>
+</div>
+
+{% endblock content %}

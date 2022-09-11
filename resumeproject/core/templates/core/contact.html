@@ -1,0 +1,59 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-warning border-bottom mb-5" >Contact</h1>
+    <div class="row text-white">
+        <p class="mx-auto mb-5 text-center">
+            Do you have any questions? Please do not hasitate to contact. I will come
+            back to you within a matter of hours to help you.
+        </p>
+        <div class="col-sm-9 mb-5">
+            <form action="">
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <label for="inputName">Your Name</label>
+                        <input type="text" class="form-control" id="inputName"/>
+                    </div>
+                    <div class="col-6">
+                        <label for="inputEmail">Your Email</label>
+                        <input type="text" class="form-control" id="inputEmail"/>                        
+                    </div>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="inputSubject">Your Subject</label>
+                    <input type="text" class="form-control" id="inputSubject"/> 
+                </div>
+                <div class="mb-3">
+                    <label for="inputTextarea">Your Message</label><br>
+                    <textarea name="inputTextarea" id="inputTextarea" class="form-control"></textarea>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-3 text-center">
+            <ul class="list-unstyled" >
+                <li class="mb-5"><i class="bi bi-geo-alt-fill text-success" style="font-size: 20px;"></i>
+                <p>Vurulia, Gazipur</p></li>
+                <li class="mb-5"><i class="bi bi-telephone-fill text-success" style="font-size: 20px;"></i>
+                    <p>+880-1795257742</p>
+                </li>
+                <li class="mb-5">
+                    <i class="bi bi-envelope-fill text-success" style="font-size: 20px;"></i>
+                    <p>talal@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="text-center text-success" style="font-size: 18px;">
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href="" class="ms-2"><i class="bi bi-twitter" ></i></a>
+        <a href="" class="ms-2"><i class="bi bi-google"></i></a>
+        <a href="" class="ms-2"><i class="bi bi-whatsapp"></i></a>
+    </div>
+
+</div>
+{% endblock content%}
